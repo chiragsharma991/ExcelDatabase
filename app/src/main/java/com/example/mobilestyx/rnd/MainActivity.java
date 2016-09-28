@@ -1,9 +1,8 @@
 package com.example.mobilestyx.rnd;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.RadioButton;
@@ -21,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         final ToggleButton toggleButton1=(ToggleButton)findViewById(R.id.button);
         final ToggleButton toggleButton2=(ToggleButton)findViewById(R.id.button1);
       //  Button button=(Button)findViewById(R.id.click);
+
+        // this will changemit?
         toggleButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
