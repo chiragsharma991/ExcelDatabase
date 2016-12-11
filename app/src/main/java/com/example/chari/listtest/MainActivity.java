@@ -21,7 +21,8 @@ public class MainActivity extends Activity {
         dbHelper.openDataBase();
         contacts = new Contact();
 
-        //jjj
+        //jjjsdfsdfsdf
+        //sdfsdf
 
 
     }
